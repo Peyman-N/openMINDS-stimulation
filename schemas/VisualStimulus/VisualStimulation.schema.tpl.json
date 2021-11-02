@@ -1,0 +1,63 @@
+{
+    "_type": "https://openminds.ebrains.eu/Stimulation/VisualStimulation",
+    "required": [
+        "resolution"
+    ],
+    "properties": {
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter the label that was used to identify this stimulation within the data."
+        },
+        "backgroundLuminance": {
+            "type": "number",
+            "_instruction": "Mean background luminance"
+        },
+        "viewingDistance": {
+            "_instruction": "refresh rate of the screen",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "stimulusField": {
+            "type": "number",
+            "_instruction": "Stimulus field of view (how much of the field of view is ocupied with stimulus)"
+        },
+        "contrast": {
+            "type": "number",
+            "_instruction": "Contrast of this stimulation"
+        },
+        "randomised": {
+            "type": "boolean",
+            "_instruction": "Is the pahses of this stimulation randomised?"
+        },
+        "citation": {
+            "_instruction": "Any posible citation of the stimulation",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/DOI",
+                "https://openminds.ebrains.eu/core/URL"
+            ]
+        },
+        "arrangement": {
+            "_instruction": "Phase arrangment of this stimulation",
+            "type": "array",
+            "minItems": 2,
+            "items": {
+                "type": "string"
+            }
+        },
+        "screen": {
+            "_instruction": "screen asositaed with this stimulation",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/Stimulation/Screen"
+            ]
+        },
+        "phases": {
+            "_instruction": "Phases used int his stimulation",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/Stimulation/VisualPatternStimulus",
+                "https://openminds.ebrains.eu/Stimulation/VideoStimulus",
+                "https://openminds.ebrains.eu/Stimulation/PictureStimulus"
+            ]
+        }
+    }
+}

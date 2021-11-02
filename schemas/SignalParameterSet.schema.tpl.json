@@ -1,0 +1,4 @@
+{
+    "_extends": "https://openminds.ebrains.eu/core/ParameterSet",
+    "_type": "https://openminds.ebrains.eu/Stimulation/SignalParameterSet"
+}
