@@ -1,6 +1,7 @@
 {
     "_type": "https://openminds.ebrains.eu/Stimulation/VisualStimulation",
     "required": [
+        "internalIdentifier",
         "resolution"
     ],
     "properties": {
@@ -52,7 +53,9 @@
             ]
         },
         "phases": {
-            "_instruction": "Phases used int his stimulation",
+            "type": "array",
+            "minItems": 1,
+            "_instruction": "Phases used in this stimulation",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/Stimulation/VisualPatternStimulus",
                 "https://openminds.ebrains.eu/Stimulation/VideoStimulus",

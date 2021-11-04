@@ -15,7 +15,10 @@
         },
         "subStimulation": {
             "_instruction": "Chose the coresponding stimulation.",
-            "_linkedTypes": []
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/Stimulation/VisualStimulation",
+                "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation"
+            ]
         },
         "description": {
             "type": "string",

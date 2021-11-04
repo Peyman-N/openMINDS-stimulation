@@ -1,8 +1,8 @@
 {
-    "_type": "https://openminds.ebrains.eu/Stimulation/PictureStimulus",
+    "_extends": "https://openminds.ebrains.eu/Stimulation/Signal",
+    "_type": "https://openminds.ebrains.eu/Stimulation/SoundPhase",
     "required": [
         "phaseIdentifier",
-        "context",
         "phaseDuration"
     ],
     "properties": {
@@ -10,25 +10,16 @@
             "type": "string",
             "_instruction": "Enter the label that was used to identify this phase within the data."
         },
-        "pictureResolution": {
-            "type": "string",
-            "_instruction": "The resulation of the pictures"
-        },
-        "context": {
-            "type": "string",
-            "_instruction": "Enter the context of these pictures"
-        },
-        "meanLuminance": {
-            "type": "number",
-            "_instruction": "Mean luminance"
-        },
         "phaseDuration": {
             "type": "number",
             "_instruction": "Total on screen time for this phase"
         },
-        "onSetDuration": {
-            "type": "number",
-            "_instruction": "The duration that each picture stayed on screen"
+        "pitch": {
+            "_instruction": "Please indicate the pitch of the sound.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+            ]
         },
         "description": {
             "type": "string",
@@ -40,11 +31,21 @@
                 "https://openminds.ebrains.eu/core/SoftwareVersion"
             ]
         },
+        "soundSpectrograms": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Spectrom of this sound",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/File",
+                "https://openminds.ebrains.eu/core/FileBundle"
+            ]
+        },
         "datalocation": {
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
-            "_instruction": "Add all the locations of all the pictures",
+            "_instruction": "Location of relavent information or data",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/File",
                 "https://openminds.ebrains.eu/core/FileBundle"
