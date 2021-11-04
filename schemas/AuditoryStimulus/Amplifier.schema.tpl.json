@@ -1,0 +1,23 @@
+{
+    "_extends": "https://openminds.ebrains.eu/ephys/Device",
+    "_type": "https://openminds.ebrains.eu/Stimulation/Amplifier",
+    "required": [],
+    "properties": {
+        "frequancyRange": {
+            "_instruction": "Please indicate the frequancy range of this speaker",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+            ]
+        },
+        "transferFunctionProperties": {
+            "_instruction": "Please indicate the transfer function properties of this speaker",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange",
+                "https://openminds.ebrains.eu/core/File",
+                "https://openminds.ebrains.eu/core/FileBundle"
+            ]
+        }
+    }
+}
