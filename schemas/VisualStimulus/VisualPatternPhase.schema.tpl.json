@@ -1,5 +1,5 @@
 {
-    "_type": "https://openminds.ebrains.eu/Stimulation/PictureStimulus",
+    "_type": "https://openminds.ebrains.eu/Stimulation/VisualPatternPhase",
     "required": [
         "phaseIdentifier",
         "context",

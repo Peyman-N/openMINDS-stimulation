@@ -57,9 +57,9 @@
             "minItems": 1,
             "_instruction": "Phases used in this stimulation",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/Stimulation/VisualPatternStimulus",
-                "https://openminds.ebrains.eu/Stimulation/VideoStimulus",
-                "https://openminds.ebrains.eu/Stimulation/PictureStimulus"
+                "https://openminds.ebrains.eu/Stimulation/VisualPatternPhase",
+                "https://openminds.ebrains.eu/Stimulation/VideoPhase",
+                "https://openminds.ebrains.eu/Stimulation/PicturePhase"
             ]
         }
     }

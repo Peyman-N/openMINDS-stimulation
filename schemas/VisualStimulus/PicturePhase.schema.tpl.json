@@ -1,5 +1,5 @@
 {
-    "_type": "https://openminds.ebrains.eu/Stimulation/VideoStimulus",
+    "_type": "https://openminds.ebrains.eu/Stimulation/PicturePhase",
     "required": [
         "phaseIdentifier",
         "context",
@@ -10,9 +10,9 @@
             "type": "string",
             "_instruction": "Enter the label that was used to identify this phase within the data."
         },
-        "videoResolution": {
+        "pictureResolution": {
             "type": "string",
-            "_instruction": "The resulation of the video"
+            "_instruction": "The resulation of the pictures"
         },
         "context": {
             "type": "string",
@@ -26,16 +26,16 @@
             "type": "number",
             "_instruction": "Total on screen time for this phase"
         },
-        "frameRate": {
+        "onSetDuration": {
             "type": "number",
-            "_instruction": "Enter the frame rate of this video phase"
+            "_instruction": "The duration that each picture stayed on screen"
         },
         "description": {
             "type": "string",
-            "_instruction": "Enter a description for this phase"
+            "_instruction": "Enter a description for this measurement"
         },
         "software": {
-            "_instruction": "Indicate any software relavent for this phase",
+            "_instruction": "Indicate the software relavent for this phase",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/core/SoftwareVersion"
             ]
@@ -44,7 +44,7 @@
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
-            "_instruction": "Add all the locations of this video",
+            "_instruction": "Add all the locations of all the pictures",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/File",
                 "https://openminds.ebrains.eu/core/FileBundle"
