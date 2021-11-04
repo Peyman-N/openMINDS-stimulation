@@ -1,5 +1,5 @@
 {
-    "_type": "https://openminds.ebrains.eu/Stimulation/AuditoryStimulation",
+    "_type": "https://openminds.ebrains.eu/Stimulation/OpticalStimulation",
     "required": [
         "internalIdentifier"
     ],
@@ -27,16 +27,10 @@
                 "type": "string"
             }
         },
-        "speaker": {
-            "_instruction": "Speaker asositaed with this stimulation",
+        "lightSource": {
+            "_instruction": "The light source used for this stimulation",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/Stimulation/PulseGenerator"
-            ]
-        },
-        "amplifier": {
-            "_instruction": "Amplifier asositaed with this stimulation",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/Stimulation/Amplifier"
+                "https://openminds.ebrains.eu/Stimulation/LightSource"
             ]
         },
         "phases": {
@@ -44,8 +38,7 @@
             "minItems": 1,
             "_instruction": "Phases used in this stimulation",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/Stimulation/RecordedSoundPhase",
-                "https://openminds.ebrains.eu/Stimulation/SoundPhase"
+                "https://openminds.ebrains.eu/Stimulation/Electrophysiologicalphase"
             ]
         }
     }
