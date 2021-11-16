@@ -19,7 +19,8 @@
                 "https://openminds.ebrains.eu/Stimulation/VisualStimulation",
                 "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation",
                 "https://openminds.ebrains.eu/Stimulation/AuditoryStimulation",
-                "https://openminds.ebrains.eu/Stimulation/OpticalStimulation"
+                "https://openminds.ebrains.eu/Stimulation/OpticalStimulation",
+                "https://openminds.ebrains.eu/Stimulation/ChemicalStimulation"
             ]
         },
         "description": {
