@@ -12,7 +12,7 @@
         },
         "phaseDuration": {
             "type": "number",
-            "_instruction": "Total on screen time for this phase"
+            "_instruction": "Total duration of this phase"
         },
         "pitch": {
             "_instruction": "Please indicate the pitch of the sound.",
