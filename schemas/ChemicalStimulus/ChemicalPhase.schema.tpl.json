@@ -36,7 +36,7 @@
         "bodyLocation": {
             "_instruction": "Location of this stimulus phase",
             "_linkedType": [
-                "https://openminds.ebrains.eu/controlledTerms/applicationMethod"
+                "https://openminds.ebrains.eu/controlledTerms/bodyLocation"
             ]
         },
         "datalocation": {
