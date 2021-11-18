@@ -1,5 +1,5 @@
 # openMINDS_stimulation
-A metadata model for electrophysiology experiments; an openMINDS extension
+A metadata model for stimulations; an openMINDS extension
 
 The **openMINDS_stimulation** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding detailed metadata specific to electrophysiology recordings to the neuroscience research products registered in the EBRAINS Knowledge Graph.
 
