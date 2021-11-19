@@ -4,7 +4,7 @@
     "required": [],
     "properties": {
         "frequancyRange": {
-            "_instruction": "Please indicate the frequancy range of this light source",
+            "_instruction": "Please indicate the frequancy range of this tactile device",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue",
                 "https://openminds.ebrains.eu/core/QuantitativeValueRange"
@@ -13,15 +13,6 @@
         "tactileDeviceModality": {
             "_instruction": "Please modality of this tactile device",
             "type": "string"
-        },
-        "transferFunctionProperties": {
-            "_instruction": "Please indicate the transfer function properties of this speaker",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue",
-                "https://openminds.ebrains.eu/core/QuantitativeValueRange",
-                "https://openminds.ebrains.eu/core/File",
-                "https://openminds.ebrains.eu/core/FileBundle"
-            ]
         }
     }
 }

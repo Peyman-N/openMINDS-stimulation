@@ -14,6 +14,13 @@
             "type": "number",
             "_instruction": "Total duration of this phase"
         },
+        "pressure": {
+            "_instruction": "Please indicate the pressure used for this stimulation phase.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+            ]
+        },
         "description": {
             "type": "string",
             "_instruction": "Enter a description for this measurement"
