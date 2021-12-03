@@ -24,7 +24,7 @@
         "chemicalSubstance": {
             "_instruction": "Chemical substance used for this phase",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/chemical/chemicalSubstance"
+                "https://openminds.ebrains.eu/chemistry/chemicalMixture"
             ]
         },
         "applicationMethod": {
