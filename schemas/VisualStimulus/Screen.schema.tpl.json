@@ -2,7 +2,8 @@
     "_extends": "https://openminds.ebrains.eu/ephys/Device",
     "_type": "https://openminds.ebrains.eu/Stimulation/Screen",
     "required": [
-        "resolution"
+        "resolution",
+        "internalIdentifier"
     ],
     "properties": {
         "internalIdentifier": {
