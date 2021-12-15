@@ -2,6 +2,7 @@
     "_type": "https://openminds.ebrains.eu/Stimulation/Stimulation",
     "_extends": "https://openminds.ebrains.eu/core/Stimulation",
     "required": [
+        "internalIdentifier",
         "subStimulation"
     ],
     "properties": {
@@ -16,11 +17,13 @@
         "subStimulation": {
             "_instruction": "Chose the coresponding stimulation.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/Stimulation/VisualStimulation",
-                "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation",
                 "https://openminds.ebrains.eu/Stimulation/AuditoryStimulation",
+                "https://openminds.ebrains.eu/Stimulation/BehavioralPhase",
+                "https://openminds.ebrains.eu/Stimulation/ChemicalStimulation",
+                "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation",
                 "https://openminds.ebrains.eu/Stimulation/OpticalStimulation",
-                "https://openminds.ebrains.eu/Stimulation/ChemicalStimulation"
+                "https://openminds.ebrains.eu/Stimulation/TactileStimulation",
+                "https://openminds.ebrains.eu/Stimulation/VisualStimulation"
             ]
         },
         "additionalRemarks": {
