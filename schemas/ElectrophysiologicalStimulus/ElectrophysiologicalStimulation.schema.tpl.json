@@ -1,7 +1,8 @@
 {
     "_type": "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation",
     "required": [
-        "internalIdentifier"
+        "internalIdentifier",
+        "phases"
     ],
     "properties": {
         "internalIdentifier": {
