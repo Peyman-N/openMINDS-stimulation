@@ -16,7 +16,7 @@
         },
         "size": {
             "type": "string",
-            "_instruction": "The resulation of the screen"
+            "_instruction": "The size of the screen"
         },
         "refreshRate": {
             "_instruction": "refresh rate of the screen",
