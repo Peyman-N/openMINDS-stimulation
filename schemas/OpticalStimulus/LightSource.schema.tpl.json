@@ -10,7 +10,7 @@
                 "https://openminds.ebrains.eu/core/QuantitativeValueRange"
             ]
         },
-        "LightsourceType": {
+        "lightsourceType": {
             "_instruction": "Please indicate the type of this light source ",
             "type": "string"
         },
