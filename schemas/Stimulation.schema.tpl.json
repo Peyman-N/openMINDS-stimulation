@@ -26,6 +26,20 @@
                 "https://openminds.ebrains.eu/Stimulation/VisualStimulation"
             ]
         },
+        "cogAtlasID": {
+            "type": "string",
+            "_formats": [
+                "iri"
+            ],
+            "_instruction": "URI of the corresponding Cognitive Atlas Task term."
+        },
+        "cogPOID": {
+            "type": "string",
+            "_formats": [
+                "iri"
+            ],
+            "_instruction": "URI of the corresponding CogPO term."
+        },
         "additionalRemarks": {
             "type": "string",
             "_instruction": "Enter additional remarks about this stimulation."
