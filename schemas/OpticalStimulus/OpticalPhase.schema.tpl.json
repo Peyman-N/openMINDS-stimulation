@@ -1,6 +1,6 @@
 {
     "_extends": "https://openminds.ebrains.eu/Stimulation/Signal",
-    "_type": "https://openminds.ebrains.eu/Stimulation/OticalPhase",
+    "_type": "https://openminds.ebrains.eu/Stimulation/OpticalPhase",
     "required": [
         "phaseIdentifier",
         "phaseDuration"
