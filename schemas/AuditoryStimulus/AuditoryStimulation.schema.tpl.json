@@ -45,7 +45,8 @@
             "_instruction": "Phases used in this stimulation",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/Stimulation/RecordedSoundPhase",
-                "https://openminds.ebrains.eu/Stimulation/SoundPhase"
+                "https://openminds.ebrains.eu/Stimulation/SoundPhase",
+                "https://openminds.ebrains.eu/Stimulation/RestPhase"
             ]
         }
     }

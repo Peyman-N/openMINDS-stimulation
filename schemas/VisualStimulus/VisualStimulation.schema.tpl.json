@@ -61,7 +61,8 @@
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/Stimulation/VisualPatternPhase",
                 "https://openminds.ebrains.eu/Stimulation/VideoPhase",
-                "https://openminds.ebrains.eu/Stimulation/PicturePhase"
+                "https://openminds.ebrains.eu/Stimulation/PicturePhase",
+                "https://openminds.ebrains.eu/Stimulation/RestPhase"
             ]
         }
     }

@@ -38,7 +38,8 @@
             "minItems": 1,
             "_instruction": "Phases used in this stimulation",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/Stimulation/OpticalPhase"
+                "https://openminds.ebrains.eu/Stimulation/OpticalPhase",
+                "https://openminds.ebrains.eu/Stimulation/RestPhase"
             ]
         }
     }
