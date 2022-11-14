@@ -1,3 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/Stimulation/PulseGeneratorUsage"
+  "_type": "https://openminds.ebrains.eu/Stimulation/PulseGeneratorUsage",
+  "required": [
+    "gain"
+  ],
+  "properties": {
+    "gain": {
+      "type": "number",
+      "_instruction": "The gain of this pulse genrator"
+    }
+  }
 }

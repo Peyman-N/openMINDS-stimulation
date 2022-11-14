@@ -1,14 +1,8 @@
 {
   "_extends": "/core/schemas/products/Device.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/Stimulation/PulseGenerator",
-  "required": [
-    "gain"
-  ],
+  "required": [],
   "properties": {
-    "gain": {
-      "type": "number",
-      "_instruction": "The gain of this pulse genrator"
-    },
     "inputResistance": {
       "_instruction": "The input resistance of this pulse genrator",
       "_embeddedTypes": [

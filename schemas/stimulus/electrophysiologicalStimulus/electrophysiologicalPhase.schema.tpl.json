@@ -1,5 +1,5 @@
 {
-  "_extends": "https://openminds.ebrains.eu/Stimulation/Signal",
+  "_extends": "/Stimulation/Signal.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/Stimulation/Electrophysiologicalphase",
   "required": [
     "phaseIdentifier",
