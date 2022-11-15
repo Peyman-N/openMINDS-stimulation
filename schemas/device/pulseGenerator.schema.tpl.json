@@ -1,5 +1,8 @@
 {
   "_extends": "/core/schemas/products/Device.schema.tpl.json",
+  "_categories": [
+    "setupComponent"
+  ],
   "_type": "https://openminds.ebrains.eu/Stimulation/PulseGenerator",
   "required": [],
   "properties": {
