@@ -1,8 +1,8 @@
 {
-  "_extends": "/core/schemas/research/stimulation.schema.tpl.json",
+  "_extends": "/core/schemas/research/Stimulation.schema.tpl.json",
   "required": [
-    "internalIdentifier",
-    "subStimulation"
+    "name",
+    "internalIdentifier"
   ],
   "properties": {
     "name": {
