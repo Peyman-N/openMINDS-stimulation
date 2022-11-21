@@ -7,16 +7,16 @@
   "properties": {
     "name": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this stimulation."
+      "_instruction": "Enter a descriptive name for this stimulus."
     },
     "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter the label that was used to identify the stimulation within the data."
+      "_instruction": "Enter the label that was used to identify the stimulus within the data."
     },
-    "subStimulation": {
-      "_instruction": "Chose the coresponding stimulation.",
+    "subStimulus": {
+      "_instruction": "Chose the coresponding stimulus.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation"
+        "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulus"
       ]
     },
     "cogAtlasID": {
@@ -35,11 +35,11 @@
     },
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter additional remarks about this stimulation."
+      "_instruction": "Enter additional remarks about this stimulus."
     },
     "description": {
       "type": "string",
-      "_instruction": "Enter a description for this stimulation"
+      "_instruction": "Enter a description for this stimulus"
     }
   }
 }
