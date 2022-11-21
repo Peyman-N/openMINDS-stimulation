@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/Stimulation/Stimulus",
+  "_extends": "/core/schemas/research/stimulation.schema.tpl.json",
   "required": [
     "internalIdentifier",
     "subStimulation"
@@ -12,12 +12,6 @@
     "internalIdentifier": {
       "type": "string",
       "_instruction": "Enter the label that was used to identify the stimulation within the data."
-    },
-    "subStimulation": {
-      "_instruction": "Chose the coresponding stimulation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation"
-      ]
     },
     "cogAtlasID": {
       "type": "string",
@@ -40,6 +34,10 @@
     "description": {
       "type": "string",
       "_instruction": "Enter a description for this stimulation"
+    },
+    "totalDuration": {
+      "type": "number",
+      "_instruction": "Total duration of this phase"
     }
   }
 }
