@@ -1,0 +1,52 @@
+{
+  "required": [
+    "name",
+    "internalIdentifier"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this stimulation."
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the label that was used to identify the stimulation within the data."
+    },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this stimulation that may help you to more easily find it again."
+    },
+    "stimulationApproach": {
+      "_instruction": "Add the stimulation approach which this stimulation has deployed.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach"
+      ]
+    },
+    "stimulusType": {
+      "_instruction": "Add the type of stimulus that has been used for this stimulation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/StimulusType"
+      ]
+    },
+    "dataLocation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all data files containing the stimulus content (e.g. movies, audio files, injected current traces).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description for this stimulation"
+    },
+    "duration": {
+      "_instruction": "Total duration of this phase",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}

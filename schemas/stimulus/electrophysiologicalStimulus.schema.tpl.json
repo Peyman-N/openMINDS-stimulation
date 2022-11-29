@@ -1,6 +1,6 @@
 {
-  "_type": "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation",
-  "_extends": "/Stimulation/Stimulation.schema.tpl.json",
+  "_type": "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulus",
+  "_extends": "/stimulus/Stimulus.schema.tpl.json",
   "properties": {
     "amplitude": {
       "_instruction": "Please indicate the amplitude of the signal.",
