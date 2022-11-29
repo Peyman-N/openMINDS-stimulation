@@ -1,4 +1,5 @@
 {
+  "_type": "https://openminds.ebrains.eu/Stimulation/ElectrophysiologicalStimulation",
   "_extends": "/Stimulation/Stimulation.schema.tpl.json",
   "properties": {
     "amplitude": {
