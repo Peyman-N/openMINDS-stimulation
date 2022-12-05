@@ -25,17 +25,20 @@
       "type": "string",
       "_instruction": "Enter a description for this stimulus."
     },
-    "duration": {
-      "_instruction": "Total duration of this stimulus.",
+    "epoch": {
+      "_instruction": "Total epoch length of this stimulus.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
-    "device": {
-      "_instruction": "Add the devices used for this stimulus.",
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
+    "generatedBy": {
+      "_instruction": "Add the device used to generate this stimulus.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "deliveredBy": {
+      "_instruction": "Add the device used to deliver this stimulus.",
       "_linkedCategories": [
         "deviceUsage"
       ]

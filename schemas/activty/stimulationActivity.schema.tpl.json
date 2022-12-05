@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/ephys/stimulationActivity",
+  "_type": "https://openminds.ebrains.eu/stimulation/stimulationActivity",
   "_extends": "/core/schemas/research/experimentalActivity.schema.tpl.json",
   "required": [
     "stimulus"
