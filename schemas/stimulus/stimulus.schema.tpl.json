@@ -11,14 +11,16 @@
       "type": "string",
       "_instruction": "Enter a lookup label for this stimulus that may help you to more easily find it again."
     },
-    "dataLocation": {
+    "specification": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all data files containing the stimulus content (e.g. movies, audio files, injected current traces).",
+      "_instruction": "Add all stimulus specifications.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/PropertyValueList",
+        "https://openminds.ebrains.eu/core/Configuration"
       ]
     },
     "description": {
