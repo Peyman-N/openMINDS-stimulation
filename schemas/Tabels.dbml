@@ -1,0 +1,33 @@
+Table SubjectState{
+  state graphlink
+}
+
+Table TissueSampleState{
+  state graphlink
+} 
+
+Table stimulus{
+    internalIdentifier string
+    lookupLabel string
+    dataLocation file
+    description string
+    epoch quantitativeValue
+    generatedBy graphlink
+    deliverdBy graphlink
+}
+
+Table EphysStimulus{
+    extends extension [ref: - stimulus.internalIdentifier]  
+    stimulusType controlledTerms
+    amplitude quantitativeValue
+    electrodeIdentifier string
+}
+
+Table StimulationActivity{
+    input graphlink [ref: - TissueSampleState.state]
+    output graphlink [ref: - TissueSampleState.state]
+    stimulus graphlink [ref: - EphysStimulus.extends]
+    setup graphlink
+}
+ref: StimulationActivity.input - SubjectState.state
+ref: StimulationActivity.output - SubjectState.state
