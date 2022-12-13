@@ -29,6 +29,12 @@
         "https://openminds.ebrains.eu/core/SubjectState"
       ]
     },
+    "setup": {
+      "_instruction": "Add the setup used for this stimulation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Setup"
+      ]
+    },
     "stimulus": {
       "type": "array",
       "minItems": 1,
@@ -36,12 +42,6 @@
         "stimulus"
       ],
       "_instruction": "Add the stimulus used in this activity."
-    },
-    "setup": {
-      "_instruction": "Add the setup used for this stimulation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Setup"
-      ]
     }
   }
 }
