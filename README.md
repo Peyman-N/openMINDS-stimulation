@@ -1,6 +1,11 @@
 # openMINDS_stimulation
 A metadata model for stimulations; an openMINDS extension
 
+
+<a href="/img/light_openMINDS_stimulation-logo.png">
+    <img src="/img/light_openMINDS_stimulation-logo.png" alt="openMINDS specimenPrep logo" title="openMINDS specimen preparation" align="right" height="70" />
+</a>
+
 The **openMINDS_stimulation** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding detailed metadata specific to electrophysiology recordings to the neuroscience research products registered in the EBRAINS Knowledge Graph.
 
 The major versions are developed and maintained in different version-branches. The default branch is always the latest version-branch.
